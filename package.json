@@ -1,0 +1,12 @@
+{
+  "name": "field_name_helper",
+  "version": "1.0.0",
+  "description": "helper tools for field name generation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Denise",
+  "license": "ISC"
+}
