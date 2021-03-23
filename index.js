@@ -1,4 +1,4 @@
-  exports.nameGenerator =  (str, slices, idKey) => {
+exports.nameGenerator =  (str, slices, idKey) => {
         let regex = str.replace(/[\d,&,-/_?():.]/g,"").toLowerCase();
         let strArray = regex.split(' ');
         let idModifier = idKey ?? 'Id';
@@ -27,7 +27,6 @@
         }
 
     }
-
     exports.uniqueFieldName = (items)  => {
         if (items.length > 1) {
             let arrayOfNames = items.map((item) => item.name);
