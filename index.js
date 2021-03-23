@@ -1,4 +1,5 @@
-exports.nameGenerator =  (str, slices, idKey) => {
+'use strict'
+function nameGenerator (str, slices, idKey) {
         let regex = str.replace(/[\d,&,-/_?():.]/g,"").toLowerCase();
         let strArray = regex.split(' ');
         let idModifier = idKey ?? 'Id';
@@ -27,7 +28,7 @@ exports.nameGenerator =  (str, slices, idKey) => {
         }
 
     }
-    exports.uniqueFieldName = (items)  => {
+    function uniqueFieldName (items) {
         if (items.length > 1) {
             let arrayOfNames = items.map((item) => item.name);
             arrayOfNames = arrayOfNames.filter((item) => item !== "");
@@ -35,3 +36,7 @@ exports.nameGenerator =  (str, slices, idKey) => {
         }
     }
 
+module.exports = {
+    nameGenerator,
+    uniqueFieldName
+}
