@@ -2,11 +2,19 @@
   "name": "field_name_helper",
   "version": "1.0.5",
   "description": "helper tools for field name generation",
-  "main": "index.js",
+  "main": "field_name_helper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "files": [
+    "field_name_helper.js"
+  ],
+  "keywords": [
+    "field",
+    "generator",
+    "uqnique",
+    "name"
+  ],
   "author": "Denise",
   "license": "ISC"
 }
