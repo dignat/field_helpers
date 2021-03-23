@@ -17,7 +17,9 @@ if you leave the slices array empty it will create by default a name from the fi
 2. uniqueFieldName(items) - accepts array of objects which must have as a key name.
 
 #Installation
-npm install --save field_name_helper
+
+    npm install --save field_name_helper
+
 #Licence
 
 This project is licensed under the terms of the MIT license.
