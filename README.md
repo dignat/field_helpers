@@ -16,10 +16,10 @@ b) slices - array (indexed slices from the string) -example some long name -> sl
 if you leave the slices array empty it will create by default a name from the first two indexes of the string
 2. uniqueFieldName(items) - accepts array of objects which must have as a key name.
 
-#Installation
+# Installation
 
     npm install --save field_name_helper
 
-#Licence
+# Licence
 
 This project is licensed under the terms of the MIT license.
