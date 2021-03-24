@@ -2,13 +2,14 @@
   "name": "field_name_helper",
   "version": "1.0.16",
   "description": "helper tools for field name generation",
-  "main": "bundle.js",
+  "main": "dist/build.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production"
   },
   "files": [
-    "bundle.js"
+    "field_name_helper.js",
+    "dist/build.js"
   ],
   "keywords": [
     "field",
