@@ -8,7 +8,7 @@
     "build": "webpack --mode production"
   },
   "files": [
-    "field_name_helper.js"
+    "./dist/bundle.js"
   ],
   "keywords": [
     "field",
