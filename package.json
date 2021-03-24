@@ -1,6 +1,6 @@
 {
   "name": "field_name_helper",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "helper tools for field name generation",
   "main": "field_name_helper.js",
   "scripts": {
@@ -17,5 +17,4 @@
   ],
   "author": "Denise",
   "license": "ISC"
-
 }
