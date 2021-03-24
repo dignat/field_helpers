@@ -12,6 +12,9 @@ b) slices - array (indexed slices from the string) -example some long name -> sl
     let name = "some name";
     const modifiedName = nameGenerator(name,[],null)
     modifiedName= "someName";
+    let longName = "This is really a long name";// we will take 3 indexed chunks
+    const longModifiedName = nameGenerator(longName, [2,4,5], null)
+    longModifiedName = 'reallyLongName'
 
 if you leave the slices array empty it will create by default a name from the first two indexes of the string
 2. uniqueFieldName(items) - accepts array of objects which must have as a key name.
