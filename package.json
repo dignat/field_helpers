@@ -16,5 +16,11 @@
     "name"
   ],
   "author": "Denise",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.12",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.27.2"
+  }
 }
