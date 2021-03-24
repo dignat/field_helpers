@@ -2,14 +2,12 @@
   "name": "field_name_helper",
   "version": "1.0.17",
   "description": "helper tools for field name generation",
-  "main": "dist/build.js",
+  "main": "field_name_helper.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
   },
   "files": [
-    "field_name_helper.js",
-    "dist/build.js"
+    "field_name_helper.js"
   ],
   "keywords": [
     "field",
@@ -18,14 +16,6 @@
     "name"
   ],
   "author": "Denise",
-  "license": "ISC",
-  "devDependencies": {
-    "@babel/core": "^7.13.10",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.13.8",
-    "@babel/preset-env": "^7.13.12",
-    "babel-loader": "^8.2.2",
-    "webpack": "^5.27.2",
-    "webpack-cli": "^4.5.0",
-    "webpack-dev-server": "^3.11.2"
-  }
+  "license": "ISC"
+
 }
