@@ -1,6 +1,6 @@
 {
   "name": "field_name_helper",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "helper tools for field name generation",
   "main": "bundle.js",
   "scripts": {
