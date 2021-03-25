@@ -2,12 +2,12 @@
   "name": "field_name_helper",
   "version": "1.0.19",
   "description": "helper tools for field name generation",
-  "main": "field_name_helper.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
-    "field_name_helper.js"
+    "index.js"
   ],
   "keywords": [
     "field",
