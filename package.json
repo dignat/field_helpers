@@ -1,6 +1,6 @@
 {
   "name": "field_name_helper",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "helper tools for field name generation",
   "main": "index.js",
   "scripts": {
