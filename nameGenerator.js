@@ -2,7 +2,7 @@
 module.exports.nameGenerator = function (str, slices, idKey) {
     let regex = str.replace(/[\d,&,-/_?():.]/g,"").toLowerCase();
     let strArray = regex.split(' ');
-    let idModifier = idKey ?? 'Id';
+    let idModifier = idKey !== null ? 'Id': '';
     if (strArray.length > 1) {
         if (slices.length > 0) {
             switch(slices.length) {
